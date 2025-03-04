@@ -5,8 +5,7 @@ public class Pedido {
     private String nombreProducto;
     private double precio;
 
-    // Constructor
-    public Pedido(String id, String nombreProducto, double precio) {
+       public Pedido(String id, String nombreProducto, double precio) {
         this.id = id;
         this.nombreProducto = nombreProducto;
         this.precio = precio;
